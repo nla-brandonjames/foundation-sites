@@ -268,7 +268,7 @@
         p.left -= o.left;
 
         //set some flags on the p object to pass along
-        p.missRight = false;
+        p.missRight = true;
         p.missTop = false;
         p.missLeft = false;
         p.leftRightFlag = false;
